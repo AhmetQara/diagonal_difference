@@ -1,5 +1,5 @@
 # diagonal_difference
- Diagonal Difference with long & short solutions
+ Diagonal Difference with short solution
 
 ![diagonal_difference_1](https://user-images.githubusercontent.com/18248422/173607828-78535d55-6cd3-46d1-8b52-9be47123f68b.png)
 
