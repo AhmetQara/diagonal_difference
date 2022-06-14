@@ -1,32 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@ahmetQara
-ahmetQara /
-diagonal_difference
-Public
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-
-    Settings
-
-diagonal_difference/diagonal_difference.py /
-@ahmetQara
-ahmetQara Update diagonal_difference.py
-Latest commit 81f0285 4 minutes ago
-History
-1 contributor
-70 lines (44 sloc) 1.31 KB
 #!/bin/python3
 
 import math
@@ -75,10 +46,10 @@ def diagonalDifference(arr):
 # short solution
     '''
 def diagonalDifference(arr):
+
     diagonal1 = sum(arr[x][x] for x in range(n))
     diagonal2= sum(arr[x][n-1-x] for x in range(n))
     return abs(diagonal1-diagonal2)
-    
     '''
             
 if __name__ == '__main__':
@@ -96,19 +67,3 @@ if __name__ == '__main__':
     fptr.write(str(result) + '\n')
 
     fptr.close()
-
-    © 2022 GitHub, Inc.
-
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
-Loading complete
